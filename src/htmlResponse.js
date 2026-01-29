@@ -11,13 +11,13 @@ const getIndex = (request, response) =>{
 };
 
 const getPage2 = (request, response) =>{
-    response.writeHead(200, {'Conten_Type': 'text/html'});
+    response.writeHead(200, {'Conten-Type': 'text/html'});
     response.write(page2);
     response.end();
 }
 
 const getPage3 = (request, response) =>{
-    response.writeHead(200, {'Conten_Type': 'text/html'});
+    response.writeHead(200, {'Conten-Type': 'text/html'});
     response.write(page3);
     response.end();
 }
